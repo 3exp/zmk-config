@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: algeboard
+      url-base: https://github.com/algeboard
+  projects:
+    - name: zmk
+      remote: algeboard
+      revision: main
+      import: app/west.yml
+  self:
+    path: config
